@@ -1,0 +1,308 @@
+body
+{
+background-image: url(phasmo.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+font-family: 'Open Sans Condensed', sans-serif;
+}
+#container
+{
+width:1500px;
+margin-left: auto;
+margin-right: auto;
+}
+#logo
+{
+
+	color: white;
+	margin-top: 20px;
+	font-weight: 900;
+	font-size: 44px;
+	letter-spacing: 3px;
+	font-family: Comic Sans MS;
+	text-align: center;
+}
+
+#menu
+{
+	margin-left: 264px;
+	position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+	background-color: #2a222a;
+	text-align: center;
+	font-size: 36px;
+	color: white;
+	padding: 20px;
+	z-index: 20;
+}
+
+#topbar
+{
+width: 1500px;
+}
+
+#sidebar
+{
+float: left;
+width: 222px;
+min-height: 630px;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 7px;
+padding-bottom: 8px;
+background-color: #2a222a;
+text-align: center;
+font-size: 18px;
+border-right: 2px dotted #666666
+}
+
+#content
+{
+background-color: #2f2f2f;
+float: left;
+padding: 45px;
+width: 1145px;
+text-align: justify;
+color: #959595;
+font-size: 24px;
+min-height: 602px;
+}
+
+#footer
+{
+clear: both;
+color: white;
+text-align: center;
+padding: 20px;
+font-size: 18px;
+}
+#topbar-left
+{
+	height: 236px;
+	width: 253px;
+	padding-top:9px;
+	padding-left: 4.5px;
+	padding-right: 4.5px;
+	float: left;
+	background-color: #2f2f2f;
+	border-right: 2px dotted #666666;
+	text-align: center;
+	vertical-align: middle;
+	margin:auto;
+}
+#topbar-middle
+{
+	height: 225px;
+	width: 995.5px;
+	float: left;
+	font-size: 26px;
+	background-color: #2f2f2f;
+	color: #959595;
+	margin-bottom: 25px;
+	text-align: justify;
+	padding: 10px;
+
+}
+#topbar-right
+{
+	font-size: 36px;
+	height: 225px;
+	width: 198.5px;
+	background-color: #2f2f2f;
+	color: #959595;
+	border-left: 2px dotted #666666;
+	margin-bottom: 25px;
+	text-align: justify;
+	padding: 10px;
+	float: left;
+}
+#tr-text
+{
+ width: 188px;
+ height: 38px;
+ padding-top: 60px;
+ text-align: center;
+}
+#clock
+{
+	width: 188px;
+	height: 100px;
+	text-align: center;
+}
+#video
+{
+	margin-top: 10px;
+	text-align: center;
+}
+.button
+{
+	transition: all .2s ease-in-out;
+	float: left;
+	min-width: 100px;
+	height: 25px;
+	font-size: 18px;
+	padding: 10px;
+	opacity: 0.8;
+	border-right: 5px solid #1e0022;
+}
+.button:hover
+{
+	color: red;
+background-color: black;
+transform: scale(1.2);
+	cursor: pointer;
+}
+.buttonL
+{
+	transition: all .2s ease-in-out;
+	font-size: 18px;
+	min-height:19px;
+	padding: 10px;
+	border-bottom: 5px solid #1e0022;
+	color:white;
+}
+.buttonL:hover
+{
+	color: red;
+	z-index:3;
+	background-color: black;
+	transform: scale(1.2);
+	cursor: pointer;
+}
+.bigtitle
+{
+	font-size: 32px;
+	font-weight: 1200px;
+	letter-spacing: 2px;
+}
+.dottedline
+{
+	height: px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	border-bottom: 2px dotted #444444
+}
+.twojamama
+{
+padding-top: 46px;
+padding-left: 5px;
+margin: auto;
+}
+a
+{
+	text-decoration: none;
+	color: white;
+}
+a:hover
+{
+	text-decoration: none;
+	color: red;
+}
+.media
+{
+	float: left;
+	min-width: 50px;
+	min-height: 50px;
+}
+.media:hover
+{
+	transition: all .2s ease-in-out;
+	transform: scale(1.4);
+}
+.maptxt
+{
+float:left;
+width: 575px;
+height: 234px;
+padding-top: 14px;
+padding-left: 28px;
+padding-right: 28px;
+padding-bottom: 4px;
+font-size: 30px;
+}
+.mapimg
+{
+float:left;
+margin-left: auto;
+margin-right: auto;
+min-width: 408px;
+min-height: 290px;
+}
+.ctxt
+{
+float:left;
+width: 833px;
+height: 200px;
+padding: 28px;
+font-size: 24px;
+
+}
+.cimg
+{
+float:left;
+min-width: 256px;
+min-height: 256px;
+}
+a.bibliography
+{
+
+}
+.tiptxt
+{
+float:left;
+width: 575px;
+min-height: 145px;
+padding-top: 1px;
+padding-left: 28px;
+padding-right: 28px;
+padding-bottom: 4px;
+font-size: 25px;
+}
+.tipimg
+{
+float:left;
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+margin-bottom: auto;
+padding-top: 35px;
+min-width: 408px;
+min-height: 115px;
+}
+
+.mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6 {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+	max-width:489px;
+	max-height: 290px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
