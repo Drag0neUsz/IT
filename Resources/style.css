@@ -273,7 +273,7 @@ min-height: 115px;
 }
 
 .mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6 {display: none}
-img {vertical-align: middle; draggable: false;}
+img {vertical-align: middle; draggable=false;}
 
 .slideshow-container {
 	max-width:489px;
