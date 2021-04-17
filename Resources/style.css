@@ -273,7 +273,13 @@ min-height: 115px;
 }
 
 .mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6 {display: none}
-img {vertical-align: middle; draggable=false;}
+img {vertical-align: middle; 
+user-drag: none; 
+user-select: none;
+-moz-user-select: none;
+-webkit-user-drag: none;
+-webkit-user-select: none;
+-ms-user-select: none;}
 
 .slideshow-container {
 	max-width:489px;
